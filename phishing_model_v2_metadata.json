@@ -1,0 +1,18 @@
+{
+    "project": "Intelligent Phishing URL Detection System",
+    "dataset": "PhiUSIIL",
+    "model": "TF-IDF + Structural URL Features + Logistic Regression",
+    "character_ngram_range": [
+        2,
+        6
+    ],
+    "max_features": 150000,
+    "min_df": 3,
+    "evaluation": "Hostname-based holdout",
+    "test_samples": 47514,
+    "accuracy": 0.997348,
+    "phishing_precision": 0.999951,
+    "phishing_recall": 0.9939,
+    "phishing_f1": 0.996916,
+    "missed_phishing_urls": 125
+}
