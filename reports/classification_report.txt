@@ -1,0 +1,17 @@
+Accuracy: 99.5607%
+
+Classification Report
+              precision    recall  f1-score   support
+
+    Phishing     0.9998    0.9915    0.9956     20225
+  Legitimate     0.9915    0.9998    0.9956     20065
+
+    accuracy                         0.9956     40290
+   macro avg     0.9956    0.9956    0.9956     40290
+weighted avg     0.9956    0.9956    0.9956     40290
+
+Confusion Matrix
+[[20053   172]
+ [    5 20060]]
+
+Evaluation setup: GroupShuffleSplit, test_size=0.20, random_state=42
